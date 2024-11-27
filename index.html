@@ -1,289 +1,312 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Nazmus Shakib</a>
+    <title>Portfolio</title>
+</head>
+<body>
+<!--===== HEADER =====-->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">Nazmus Shakib</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home" id="home">
+        <div class="home__container bd-grid">
+            <h1 class="home__title"><span>Hi,</span><br><br> <span>I am Shakib,</span><br> <br>Full-Stack Software
+               <br> Engineer.</h1>
+            <h3 class="home__title-small">NextJs || NestJs || Angular || Express.js || MySql || Oracle</h3>
+
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
+            </div>
+
+            <img src="assets/img/mineS.png" alt="" class="home__img">
+        </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/mineS.png" alt="">
+            </div>
+
+            <div>
+                <h2 class="about__subtitle">I'am Nazmus Shakib</h2>
+                <span class="about__profession">Web Developer</span>
+                <p class="about__text">Dedicated and experienced Full-stack developer with 4 years of
+                    experience in Angular, Next.js, Nest.js, Express.js, and Sails.js. Proven
+                    ability to develop and deploy end-to-end web applications that meet or
+                    exceed client expectations. Seeking a challenging position in a
+                    fast-paced environment where I can use my skills to make a significant
+                    impact on the company's bottom line.</p>
+
+                <div class="about__social">
+                    <a href="https://github.com/shakib77" class="about__social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/shakib77/" class="about__social-icon"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.facebook.com/shakib.shaon0/" class="about__social-icon"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/shakib.sha0n/" class="about__social-icon"><i
+                            class='bx bxl-instagram'></i></a>
+                    <a href="https://x.com/shaakib0" class="about__social-icon"><i class='bx bxl-twitter'></i></a>
+                    <br>
+                    <br>
+
+                    <a href="https://drive.google.com/file/d/1FJ2JzXIWyfN8YWlj7sGfss6-6WluRppr/view?usp=sharing">
+                        <button class="get__resume-btm">Get My Resume</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+            <div class="skills__container">
+                <h3 class="skills__subtitle">Frontend</h3>
+
+                <div class="skill__data">
+                    <span class="skill__name">Next.js</span>
+                    <span class="skill__number">90%</span>
+                    <span class="skill__bar skills__nextjs"></span>
                 </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
+                <div class="skill__data">
+                    <span class="skill__name">React Js</span>
+                    <span class="skill__number">70%</span>
+                    <span class="skill__bar skills__react"></span>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>Hi,</span><br><br> <span>I am Shakib,</span><br> <br>Font-End Web developer.</h1>
-                    <h3 class="home__title-small">Font End Developer || ReactJs Expert || Freelancer</h3>
-                    
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
-                    </div>
-
-                    <img src="assets/img/mineS.png" alt="" class="home__img">
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/mineS.png" alt="">
-                    </div>
-
-                    <div>
-                        <h2 class="about__subtitle">I'am Nazmus Shakib</h2>
-                        <span class="about__profession">Web Developer</span>
-                        <p class="about__text">I am a front-end web developer. I have experience working with
-                             Javascript and React Js. I build some projects with Javascript and I am working
-                              on an eCommerce Web site project with React js. I have also experience in graphics design.
-                               I am working on freelancer sites with logo design.</p>
-
-                        <div class="about__social">
-                            <a href="https://github.com/shakib77" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                            <a href="https://www.linkedin.com/in/nazmus-shakib0/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="https://www.facebook.com/shakib.shaon0/" class="about__social-icon"><i class='bx bxl-facebook' ></i></a>
-                            <a href="https://www.instagram.com/shakib.sha0n/" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
-                            <a href="https://twitter.com/shaakib0" class="about__social-icon"><i class='bx bxl-twitter' ></i></a>
-                            <br>
-                            <br>
-
-                            <a href="https://drive.google.com/file/d/1FJ2JzXIWyfN8YWlj7sGfss6-6WluRppr/view?usp=sharing">
-                                <button class="get__resume-btm">Get My Resume</button></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">
-                    <div class="skills__container">
-                        <h3 class="skills__subtitle">Fontend</h3>
-
-                        <div class="skill__data">
-                            <span class="skill__name">Html5-Css3</span>
-                            <span class="skill__number">90%</span>
-                            <span class="skill__bar skills__html"></span>
-                        </div>
-
-                        <div class="skill__data">
-                            <span class="skill__name">Bootstrap</span>
-                            <span class="skill__number">80%</span>
-                            <span class="skill__bar skills__bt"></span>
-                        </div>
-
-                        <div class="skill__data">
-                            <span class="skill__name">Javascript</span>
-                            <span class="skill__number">85%</span>
-                            <span class="skill__bar skills__js"></span>
-                        </div>
-
-                        <div class="skill__data">
-                            <span class="skill__name">React Js</span>
-                            <span class="skill__number">70%</span>
-                            <span class="skill__bar skills__react"></span>
-                        </div>
-
-                        <div class="skill__data">
-                            <span class="skill__name">PHP</span>
-                            <span class="skill__number">50%</span>
-                            <span class="skill__bar skills__php"></span>
-                        </div>
-                    </div>
-                    
-
-                    <div>
-                        <p>The main area of my expertise is front end development (client side of the web).
-                            HTML, CSS, JS (ES5,ES6), building small and medium web apps with React js, custom features,
-                             animations, and coding interactive layouts.</p>
-                    </div>
-                </div>
-                <br><br>
-                <div class="skills__container bd-grid">
-                    <div class="skills__container">
-                        <h3 class="skills__subtitle">Graphics Design</h3>
-
-                        <div class="skill__data">
-                            <span class="skill__name">Illustrator</span>
-                            <span class="skill__number">80%</span>
-                            <span class="skill__bar skills__il"></span>
-                        </div>
-
-                        <div class="skill__data">
-                            <span class="skill__name">Photoshop</span>
-                            <span class="skill__number">70%</span>
-                            <span class="skill__bar skills__ph"></span>
-                        </div>
-                    </div>
-                    
-
-                    <div class="skills__img">
-                        <p>I aslo have experience in Graphics design. I am Expert in Adobe Illustrator and Photoshop. Logo gesign is my expertise. 
-                            I can also make Business card, Flyer design, Banner design.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Portfolio</h2>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-                        <!-- <img src="assets/img/work2.jpg" alt=""> -->
-                        <img src="https://media.giphy.com/media/Rh5HSnww9mtXMaC84y/giphy.gif" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://shakib77.github.io/Practice-of-js-css-bootstrap/" class="portfolio__link-name">JS: 5 Project<br>View details</a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__img">
-                        <img src="https://media.giphy.com/media/iJ1Y9CEpnMA76oX3OY/giphy.gif" alt="Search app">
-
-                        <div class="portfolio__link">
-                            <a href="https://shakib77.github.io/monster-rolodex-reactJS/" class="portfolio__link-name">ReactJs: Search app<br>View details</a>
-                        </div>
-                    </div>
-                    
-                    <div class="portfolio__img">
-                        <img src="https://media.giphy.com/media/dz1JxPGRUuIlZwnu4U/giphy.gif" alt="Full eCommerce site">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">ReactJs: Full eCommerce site<br>View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="https://media.giphy.com/media/o1hCdy0gMBp1TX5xIE/giphy.gif" alt="Chat app">
-
-                        <div class="portfolio__link">
-                            <a href="https://shakib77.github.io/superchat-reactjs/" class="portfolio__link-name">ReactJs: Chat app<br>View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="https://media.giphy.com/media/EstcE2q7fCr3Jf2pq5/giphy.gif" alt="Weather app">
-
-                        <div class="portfolio__link">
-                            <a href="https://shakib77.github.io/weatherapp-reactjs/" class="portfolio__link-name">ReactJs: Weather app<br>View details</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">shaakib0@gmail.com</span>
-
-                        <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+8801974332385</span>
-
-                        <h3 class="contact__subtitle">SKYPE</h3>
-                        <span class="contact__text">shakibshaon77@gmail.com</span>
-
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">Bashabo, Dhaka-1214</span>
-                    </div>
-
-                    <!-- ====contact form==== -->
-                    <div class="form-style">
-                        <h3>Contact Me</h4>
-                        <form action="https://formspree.io/mknpnkjb"
-                        method="POST">
-                            
-                            <input type="text" name="name" placeholder="Name" class="name" id="name" required>
-                            
-                            
-                            <input type="email" name="email" placeholder="Email" class="email" id="email" required>
-                            
-    
-                            <textarea name="message" id="message" placeholder="Type your Message" cols="0" rows="10" class="message" required></textarea>
-
-                            <input type="submit" value="Sent" class="submit">
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">NAZMUS SHAKIB</h2>
-                    <p class="footer__text">I'm Shakib and this is my personal website</p>
+                <div class="skill__data">
+                    <span class="skill__name">Angular</span>
+                    <span class="skill__number">60%</span>
+                    <span class="skill__bar skills__angular"></span>
                 </div>
 
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORE</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">About</a></li>
-                        <li><a href="#skills" class="footer__link">Skills</a></li>
-                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                        <li><a href="#Contact" class="footer__link">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer__data">
-                    <h2 class="footer__title">FOLLOW</h2>
-                    <a href="https://github.com/shakib77" class="footer__social"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/nazmus-shakib0/" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://www.facebook.com/shakib.shaon0/" class="footer__social"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://www.instagram.com/shakib.sha0n/" class="footer__social"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://twitter.com/shaakib0" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                <div class="skill__data">
+                    <span class="skill__name">Javascript</span>
+                    <span class="skill__number">95%</span>
+                    <span class="skill__bar skills__js"></span>
                 </div>
 
+                <div class="skill__data">
+                    <span class="skill__name">TypeScript</span>
+                    <span class="skill__number">80%</span>
+                    <span class="skill__bar skills__ts"></span>
+                </div>
+            </div>
+
+
+            <div>
+                <p>The main area of my expertise is front-end development, focusing on building dynamic and interactive
+                    web applications using modern frameworks and libraries. Proficient in HTML, CSS, JavaScript (ES5,
+                    ES6+), and TypeScript, I excel in developing scalable solutions with frameworks like React.js,
+                    Angular, and Next.js. My experience includes crafting custom features, animations, and responsive
+                    layouts, ensuring seamless user experiences across various devices and platforms.</p>
 
             </div>
-        </footer>
+        </div>
+        <br><br>
+        <div class="skills__container bd-grid">
+            <div class="skills__container">
+                <h3 class="skills__subtitle">Backend</h3>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+                <div class="skill__data">
+                    <span class="skill__name">Nest.js</span>
+                    <span class="skill__number">70%</span>
+                    <span class="skill__bar skills__nest"></span>
+                </div>
 
-        <!-- jsdelivr -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+                <div class="skill__data">
+                    <span class="skill__name">Express.js</span>
+                    <span class="skill__number">75%</span>
+                    <span class="skill__bar skills__express"></span>
+                </div>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                <div class="skill__data">
+                    <span class="skill__name">Sails.js</span>
+                    <span class="skill__number">70%</span>
+                    <span class="skill__bar skills__sails"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skills__img">
+                <p>I also have extensive experience in back-end development. I specialize in frameworks like Nest.js,
+                    Express.js, and Sails.js for creating robust server-side applications. Additionally, I am proficient
+                    in Javascript and Typescript, enabling me to build scalable APIs and full-stack solutions.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--===== PORTFOLIO =====-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="portfolio__container bd-grid">
+            <div class="portfolio__img">
+                <!-- <img src="assets/img/work2.jpg" alt=""> -->
+                <img src="https://media.giphy.com/media/Rh5HSnww9mtXMaC84y/giphy.gif" alt="">
+
+                <div class="portfolio__link">
+                    <a href="https://shakib77.github.io/Practice-of-js-css-bootstrap/" class="portfolio__link-name">JS:
+                        5 Project<br>View details</a>
+                </div>
+            </div>
+
+            <div class="portfolio__img">
+                <img src="https://media.giphy.com/media/iJ1Y9CEpnMA76oX3OY/giphy.gif" alt="Search app">
+
+                <div class="portfolio__link">
+                    <a href="https://shakib77.github.io/monster-rolodex-reactJS/" class="portfolio__link-name">ReactJs:
+                        Search app<br>View details</a>
+                </div>
+            </div>
+
+            <div class="portfolio__img">
+                <img src="https://media.giphy.com/media/dz1JxPGRUuIlZwnu4U/giphy.gif" alt="Full eCommerce site">
+
+                <div class="portfolio__link">
+                    <a href="#" class="portfolio__link-name">ReactJs: Full eCommerce site<br>View details</a>
+                </div>
+            </div>
+            <div class="portfolio__img">
+                <img src="https://media.giphy.com/media/o1hCdy0gMBp1TX5xIE/giphy.gif" alt="Chat app">
+
+                <div class="portfolio__link">
+                    <a href="https://shakib77.github.io/superchat-reactjs/" class="portfolio__link-name">ReactJs: Chat
+                        app<br>View details</a>
+                </div>
+            </div>
+            <div class="portfolio__img">
+                <img src="https://media.giphy.com/media/EstcE2q7fCr3Jf2pq5/giphy.gif" alt="Weather app">
+
+                <div class="portfolio__link">
+                    <a href="https://shakib77.github.io/weatherapp-reactjs/" class="portfolio__link-name">ReactJs:
+                        Weather app<br>View details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <div class="contact__info">
+                <h3 class="contact__subtitle">EMAIL</h3>
+                <span class="contact__text">shaakib0@gmail.com</span>
+
+                <h3 class="contact__subtitle">PHONE</h3>
+                <span class="contact__text">+8801974332385</span>
+
+                <h3 class="contact__subtitle">SKYPE</h3>
+                <span class="contact__text">shakibshaon77@gmail.com</span>
+
+                <h3 class="contact__subtitle">ADRESS</h3>
+                <span class="contact__text">Bashabo, Dhaka-1214</span>
+            </div>
+
+            <!-- ====contact form==== -->
+            <div class="form-style">
+                <h4>Contact Me</h4>
+                <form action="https://formspree.io/mknpnkjb"
+                      method="POST">
+
+                    <input type="text" name="name" placeholder="Name" class="name" id="name" required>
+
+
+                    <input type="email" name="email" placeholder="Email" class="email" id="email" required>
+
+
+                    <textarea name="message" id="message" placeholder="Type your Message" cols="0" rows="10"
+                              class="message" required></textarea>
+
+                    <input type="submit" value="Sent" class="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--===== FOOTER =====-->
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <div class="footer__data">
+            <h2 class="footer__title">NAZMUS SHAKIB</h2>
+            <p class="footer__text">I'm Shakib and this is my personal website</p>
+        </div>
+
+        <div class="footer__data">
+            <h2 class="footer__title">EXPLORE</h2>
+            <ul>
+                <li><a href="#home" class="footer__link">Home</a></li>
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#skills" class="footer__link">Skills</a></li>
+                <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                <li><a href="#contact" class="footer__link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__data">
+            <h2 class="footer__title">FOLLOW</h2>
+            <a href="https://github.com/shakib77" class="footer__social"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/shakib77/" class="footer__social"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.facebook.com/shakib.shaon0/" class="footer__social"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/shakib.sha0n/" class="footer__social"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/shaakib0" class="footer__social"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+
+    </div>
+</footer>
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- jsdelivr -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
+</body>
 </html>
