@@ -93,7 +93,7 @@ img {
     padding: 3rem 0;
 }
 
-.section-title {
+.section-title, .persona-section-title {
     position: relative;
     font-size: var(--h2-font-size);
     color: var(--dark-color);
@@ -101,7 +101,11 @@ img {
     text-align: center;
 }
 
-.section-title::after {
+.persona-section-title {
+    font-size: var(--h3-font-size);
+}
+
+.section-title::after, .persona-section-title::after {
     position: absolute;
     content: "";
     width: 32px;
@@ -544,12 +548,20 @@ img {
     }
 
     .section-title {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .persona-section-title {
+        margin-bottom: 2rem;
     }
 
     .section-title::after {
         width: 64px;
         top: 3rem;
+    }
+    .persona-section-title::after {
+        width: 64px;
+        top: 2rem;
     }
 
     .nav {
